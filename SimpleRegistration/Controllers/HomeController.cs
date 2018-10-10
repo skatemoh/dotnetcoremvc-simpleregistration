@@ -29,6 +29,12 @@ namespace SimpleRegistration.Controllers
             return View();
         }
 
+        public IActionResult Registration()
+        {
+            ViewData["Message"] = "Registration";
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
